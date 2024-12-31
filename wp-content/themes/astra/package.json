@@ -1,0 +1,31 @@
+{
+  "name": "astra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack build --node-env=production",
+    "dev": "webpack build --node-env=development",
+    "watch": "webpack watch --node-env=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prw4nnabe/Blanjac.git"
+  },
+  "author": "PG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prw4nnabe/Blanjac/issues"
+  },
+  "homepage": "https://github.com/Prw4nnabe/Blanjac#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.2",
+    "node-sass": "^9.0.0",
+    "sass": "^1.83.0",
+    "sass-loader": "^16.0.4",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}

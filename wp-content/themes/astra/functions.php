@@ -12,6 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
+function my_custom_theme_scripts() {     wp_enqueue_style('my-custom-theme-styles', get_template_directory_uri() . '/dist/style.css');     wp_enqueue_script('my-custom-theme-scripts', get_template_directory_uri() . '/dist/bundle.js', array(), false, true); } add_action('wp_enqueue_scripts', 'my_custom_theme_scripts');
 /**
  * Define Constants
  */
@@ -198,3 +199,5 @@ require_once ASTRA_THEME_DIR . 'inc/core/markup/class-astra-markup.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-filters.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-hooks.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-functions.php';
+
+
