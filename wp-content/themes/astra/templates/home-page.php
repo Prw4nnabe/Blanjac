@@ -5,9 +5,18 @@
 ?>
 <?php get_header(); ?>
 
-<main class="">
-    <section class="">
-       
+<main class="front-page">
+    <section class="hero-section">
+       <div class="slogan">
+            <p>
+                Twój brakujący element w firmie
+            </p>
+        </div>
+        <div class="brand">
+            <h1>
+                Blanjac
+            </h1>
+        </div>
     </section>
 
 

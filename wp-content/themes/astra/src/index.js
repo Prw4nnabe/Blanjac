@@ -1,1 +1,3 @@
-import './scss/main.scss'; // You can also import JS modules here if needed.
+import './scss/main.scss';
+import './scss/front-page.scss';
+import './scss/fonts.scss';
