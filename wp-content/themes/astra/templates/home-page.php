@@ -22,23 +22,30 @@
             </p>
         </div>
     </section>
-    <section class="test"></section>
-    <section class="animText-section">
+    <section class="offer-section">
         <div class="overflow-hidden">
-            <h2>No sliders.</h2>
+            <h2>SEO</h2>
         </div>
         <div class="overflow-hidden">
-            <h2>No tabs.</h2>
+            <h2>PPC</h2>
         </div>
         <div class="overflow-hidden">
-            <h2>No code.</h2>
+            <h2>E-mail marketing</h2>
         </div>
-       
+        <div class="overflow-hidden">
+            <h2>I nie tylko...</h2>
+        </div>
+
     </section>
 
-    <section class="space">
-        <h2>Hello title</h2>
+    <section class="reasons-section space">
+        <h2>Dlaczego my?</h2>
     </section>
+    <section class="contact-section">
+        <h3>Masz pytania?</h3>
+        <div class="contact-form">
+
+        </div>
 
 
 </main>
