@@ -49,6 +49,27 @@ p {
   font-size: 120px;
   color: white;
 }
+.front-page .about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 1920px) {
+  .front-page .about-section {
+    padding: 80px 96px;
+  }
+}
+.front-page .about-section h2 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+.front-page .about-section .description {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+}
 .front-page .offer-section {
   position: relative;
 }
@@ -67,7 +88,7 @@ p {
 }
 .front-page .offer-section h2 {
   padding-bottom: 20px;
-  background-image: linear-gradient(157deg, #e8dfff, #4873ea);
+  background-image: linear-gradient(157deg, #60CCE5, #60DDA5);
   font-size: 130px;
   line-height: 0.8;
   letter-spacing: -6px;
