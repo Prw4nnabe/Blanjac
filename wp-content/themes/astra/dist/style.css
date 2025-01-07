@@ -19,16 +19,24 @@ p {
   margin: auto;
   display: block;
   background-color: black;
+  background-image: url("https://blanjac.pl/wp-content/uploads/2025/01/main_bg_fad.png");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 @media (max-width: 1920px) {
   .front-page {
-    padding: 80px 96px;
+    padding: 0px 96px;
   }
 }
 .front-page .hero-section {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (max-width: 1920px) {
+  .front-page .hero-section {
+    padding: 80px 96px;
+  }
 }
 .front-page .hero-section .logo {
   max-width: 100px;
@@ -41,44 +49,72 @@ p {
   font-size: 120px;
   color: white;
 }
-
-body {
-  background-color: #020d11;
-  background-image: linear-gradient(135deg, #020d11, #031116);
+.front-page .about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-h2 {
-  margin: 0;
-  padding: 0;
+@media (max-width: 1920px) {
+  .front-page .about-section {
+    padding: 80px 96px;
+  }
 }
-
-.test {
-  height: 100vh;
+.front-page .about-section h2 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
 }
-
-.animText-section {
+.front-page .about-section .description {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+}
+.front-page .offer-section {
   position: relative;
 }
-
-.overflow-hidden {
+@media (max-width: 1920px) {
+  .front-page .offer-section {
+    padding: 80px 96px;
+  }
+}
+.front-page .offer-section .overflow-hidden {
   position: relative;
   overflow: hidden;
 }
-
-.space {
+.front-page .offer-section .space {
   padding: 80px 0;
   height: 800px;
 }
-
-h2 {
+.front-page .offer-section h2 {
   padding-bottom: 20px;
-  background-image: linear-gradient(157deg, #e8dfff, #4873ea);
+  background-image: linear-gradient(157deg, #60CCE5, #60DDA5);
   font-size: 130px;
   line-height: 0.8;
   letter-spacing: -6px;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media (max-width: 1920px) {
+  .front-page .reasons-section {
+    padding: 80px 96px;
+  }
+}
+.front-page .reasons-section h2 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+@media (max-width: 1920px) {
+  .front-page .contact-section {
+    padding: 80px 96px;
+  }
+}
+.front-page .contact-section h3 {
+  font-size: 50px;
+  color: white;
+  padding-bottom: 500px;
 }
 /*!******************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/fonts.scss (1) ***!
