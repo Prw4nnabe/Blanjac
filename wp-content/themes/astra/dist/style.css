@@ -114,7 +114,7 @@ p {
 .front-page .contact-section h3 {
   font-size: 50px;
   color: white;
-  padding-bottom: 500px;
+  text-align: center;
 }
 /*!******************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/fonts.scss (1) ***!

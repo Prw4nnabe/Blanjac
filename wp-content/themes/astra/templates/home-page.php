@@ -54,7 +54,7 @@
     <section class="contact-section">
         <h3>Masz pytania?</h3>
         <div class="contact-form">
-
+            <?php echo do_shortcode('[wpforms id="12"]'); ?>
         </div>
 
 

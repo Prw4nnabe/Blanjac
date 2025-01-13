@@ -25,6 +25,7 @@ wp-config.php
 
 # Example plugin
 /wp-content/plugins/hello.php
+/wp-content/plugins/wpforms-lite
 
 # Uploads
 /wp-content/uploads/
