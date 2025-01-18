@@ -119,11 +119,30 @@
       color: white;
       text-align: center;
     }
-    
-    input#wpforms-12-field_1, input#wpforms-12-field_2 {
+
+    label.wpforms-field-label {
+      color: white !important;
+    }
+
+    input#wpforms-12-field_1,
+    input#wpforms-12-field_2,
+    textarea#wpforms-12-field_3 {
       border-radius: 25px;
       padding: 20px;
-      color: #3E3D3D;
+      background-color: #3E3D3D;
     }
+
+    .wpforms-submit-container {
+      text-align: right;
+    }
+
+    button#wpforms-submit-12 {
+      background-color: #60CCE5;
+      border-radius: 25px;
+      padding: 0px 60px;
+      color: white;
+    }
+
+
   }
 }
