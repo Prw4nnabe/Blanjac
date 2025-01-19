@@ -116,10 +116,24 @@ p {
   color: white;
   text-align: center;
 }
-.front-page .contact-section input#wpforms-12-field_1, .front-page .contact-section input#wpforms-12-field_2 {
-  border-radius: 30px;
-  padding: 10px;
-  color: #3E3D3D;
+.front-page .contact-section label.wpforms-field-label {
+  color: white !important;
+}
+.front-page .contact-section input#wpforms-12-field_1,
+.front-page .contact-section input#wpforms-12-field_2,
+.front-page .contact-section textarea#wpforms-12-field_3 {
+  border-radius: 25px;
+  padding: 20px;
+  background-color: #3E3D3D;
+}
+.front-page .contact-section .wpforms-submit-container {
+  text-align: right;
+}
+.front-page .contact-section button#wpforms-submit-12 {
+  background-color: #60CCE5;
+  border-radius: 25px;
+  padding: 0px 60px;
+  color: white;
 }
 /*!******************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/fonts.scss (1) ***!
